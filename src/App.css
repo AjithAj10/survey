@@ -1,10 +1,28 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+button{
+  background-color: rgb(221, 109, 109);
+  color: white;
+  display: block;
+  margin: 2rem;
+  max-width: max-content;
+  padding: 1.2rem;
+  font-size: large;
+  cursor: pointer;
+  border: none;
+}
+button:hover{
+  background-color: rgb(179, 92, 92);
 }
 
 @media (prefers-reduced-motion: no-preference) {
